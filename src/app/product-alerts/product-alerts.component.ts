@@ -14,10 +14,12 @@ export class ProductAlertsComponent implements OnInit {
   @Output() notify = new EventEmitter();
   constructor() { }
 
+
+
+
   share(): void {
     window.alert('The product has been shared!');
   }
-
 
 
 
